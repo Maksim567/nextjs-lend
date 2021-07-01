@@ -31,6 +31,7 @@ const Topbar = ({themeMode, themeToggler, onSidebarOpen, pages, className, ...re
                             variant="outlined"
                             component="a"
                             href="/"
+                            className={classes.listItemButton}
                         >Sign In</Button>
                     </ListItem>
                     <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
@@ -38,7 +39,6 @@ const Topbar = ({themeMode, themeToggler, onSidebarOpen, pages, className, ...re
                             variant="contained"
                             color="primary"
                             component="a"
-                            target="blank"
                             href="/"
                             className={classes.listItemButton}
                         >Sign Up</Button>
