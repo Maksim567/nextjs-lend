@@ -30,15 +30,5 @@ const Reviews = props => {
     );
 };
 
-Reviews.propTypes = {
-    /**
-     * External classes
-     */
-    className: PropTypes.string,
-    /**
-     * data to be rendered
-     */
-    data: PropTypes.array.isRequired,
-};
 
 export default Reviews;

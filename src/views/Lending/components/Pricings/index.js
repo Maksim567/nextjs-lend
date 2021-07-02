@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {useTheme} from '@material-ui/core/styles';
-import {useMediaQuery, Grid, Typography, Button, Icon} from '@material-ui/core';
+import {useMediaQuery, Grid, Typography, Button} from '@material-ui/core';
 import {SectionHeader} from "../../../../components/molecules";
 import {CardPricingStandard} from "../../../../components/organisms";
-import {LearnMoreLink} from "../../../../components/atoms";
+import {LearnMoreLink, Icon} from "../../../../components/atoms";
 import useStyles from "./style";
+
 
 
 const Pricings = props => {

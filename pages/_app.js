@@ -7,6 +7,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 
+import 'react-lazy-load-image-component/src/effects/opacity.css';
+import 'leaflet/dist/leaflet.css';
+import 'swiper/css/swiper.min.css';
+import 'aos/dist/aos.css';
+
 export default function App({ Component, pageProps }) {
     return (
         <React.Fragment>

@@ -5,7 +5,8 @@ import {SectionHeader} from "../../../../components/molecules";
 import {CardBase} from "../../../../components/organisms";
 import {Image} from "../../../../components/atoms";
 import useStyles from "./style";
-
+import PlayIcon from "assets/images/lending-assets/play-icon.svg";
+import DesignIcon from "assets/images/lending-assets/design-team.svg";
 
 const About = props => {
     const { className, ...rest } = props;
@@ -39,7 +40,7 @@ const About = props => {
                         <Grid container justify="flex-end">
                             <Image
                                 className={classes.playIcon}
-                                src="https://assets.maccarianagency.com/the-front/illustrations/play-icon.svg"
+                                src={PlayIcon}
                                 alt="Play Video"
                             />
                         </Grid>
@@ -48,7 +49,7 @@ const About = props => {
                         <Grid item xs={12}>
                             <Grid container justify="center">
                                 <Image
-                                    src="https://assets.maccarianagency.com/the-front/illustrations/design-team.svg"
+                                    src={DesignIcon}
                                     alt="Play Video"
                                 />
                             </Grid>

@@ -10,14 +10,14 @@ const Sidebar = props => {
     const classes = useStyles();
 
     return (
-        <Drawer
-            anchor="left"
-            classes={{ paper: classes.drawer }}
-            onClose={() => onClose()}
-            open={open}
-            variant={variant}
-        >
-        </Drawer>
+      <Drawer
+        anchor='left'
+        classes={{ paper: classes.drawer }}
+        onClose={() => onClose()}
+        open={open}
+        variant={variant}
+      >
+      </Drawer>
     );
 };
 
